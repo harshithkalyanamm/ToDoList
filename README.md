@@ -3,7 +3,7 @@
 ## A Simple App which keep's track of all your daily tasks created with Kotlin, SQLite.
 
 ## Install
-### Download the apk file given in the respositary and Click on install in your device.
+### Download the apk file given in the respositary and install it in your Android device.
 
 ## App Guide
 
