@@ -1,6 +1,6 @@
 # ToDoListApp
 
-## A Simple App which keep's track of all your daily tasks created with Kotlin, SQLite.
+## A Simple App which keep's track of all your daily tasks created with Kotlin, SQLite & Room Storage.
 
 ## Install
 ### Download the apk file given in the respositary and install it in your Android device.
