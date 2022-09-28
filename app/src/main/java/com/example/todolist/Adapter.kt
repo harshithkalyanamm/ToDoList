@@ -1,5 +1,6 @@
 package com.example.todolist
 
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -21,6 +22,11 @@ class Adapter(var data:List<Cardinfo>): RecyclerView.Adapter<Adapter.viewHolder>
     override fun onBindViewHolder(holder: viewHolder, position: Int) {
         holder.title.text=data[position].title
         holder.description.text=data[position].description
+        holder.itemView.setOnClickListener{
+            val intent = Intent(holder.itemView.context,UpdateCard::class.java)
+            intent.putExtra("id",position)
+            holder.itemView.context.startActivity(intent)
+        }
 
 
     }

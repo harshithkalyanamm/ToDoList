@@ -21,9 +21,9 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:fontFamily="sans-serif"
-            android:text="Your task"
+            android:text="My Tasks"
             android:textColor="@color/white"
-            android:textSize="40sp"/>
+            android:textSize="25sp"/>
 
 
 
@@ -42,6 +42,7 @@
             />
 
         <Button
+            android:id="@+id/add"
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:layout_gravity="center|bottom"
